@@ -145,3 +145,72 @@ export const products = [
         bestseller: true
     },
 ]
+
+// src/data/products.js
+import sport1 from "../assets/sport1.jpg";
+import sport2 from "../assets/sport2.jpg";
+import sport3 from "../assets/sport3.jpg";
+import sport4 from "../assets/sport4.jpg";
+import sport5 from "../assets/sport5.jpg";
+import sport6 from "../assets/sport6.jpg";
+import sport7 from "../assets/sport7.jpg";
+import sport8 from "../assets/sport8.jpg";
+
+export const sports = [
+  { image: sport1, text: "Running" },
+  { image: sport2, text: "Football" },
+  { image: sport3, text: "Basketball" },
+  { image: sport4, text: "Training and Gym" },
+  { image: sport5, text: "Tennis" },
+  { image: sport6, text: "Yoga" },
+  { image: sport7, text: "Skateboarding" },
+  { image: sport8, text: "Dance" },
+];
+
+
+
+import member1 from "../assets/member1.jpg"
+import member2 from "../assets/member2.png"
+import member3 from "../assets/member3.jpg"
+import member4 from "../assets/member4.png"
+import member5 from "../assets/member5.jpg"
+import member6 from "../assets/member6.jpg"
+
+export const members = [
+    {
+        image: member1,
+        subtitle: "Member Product",
+        title: "Your Exclusive Access",
+        button: "Shop"
+    },
+    {
+        image: member2,
+        subtitle: "Nike By You",
+        title: "Your Customisation Service",
+        button: "Customise"
+    },
+    {
+        image: member3,
+        subtitle: "Member Rewards",
+        title: "How We Say Thank You",
+        button: "Celebrate"
+    },
+    {
+        image: member4,
+        subtitle: "Member Days",
+        title: "A Celebration of You",
+        button: "Learn More"
+    },
+    {
+        image: member5,
+        subtitle: "Sport & Wellness Apps",
+        title: "Movement Where You Are",
+        button: "Move"
+    },
+    {
+        image: member6,
+        subtitle: "SNKRS",
+        title: "Your Ultimate Sneaker Community",
+        button: "Explore"
+    },
+]

@@ -21,7 +21,7 @@ const Hero = () => {
             <p className=" text-sm md:text-lg poppins-regular roboto-regular font-semibold">
             Comfort you want with support you need to power your wins.
             </p>
-            <button className="mt-6 px-4 py-2 bg-[#111111] text-white font-semibold rounded-full shadow-lg hover:bg-gray-900 transition-all poppins-regular roboto-regular self-start">
+            <button className="mt-6 px-4 py-2 bg-[#111111] text-white font-semibold rounded-full shadow-lg hover:bg-gray-900 transition-all poppins-regular roboto-regular  text-center">
             Shop Now
             </button>
       </div>

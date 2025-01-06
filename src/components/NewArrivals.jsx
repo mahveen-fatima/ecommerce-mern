@@ -6,7 +6,7 @@ import ProductItem from "./ProductItem.jsx";
 const NewArrivals = () => {
     const { products } = useContext(ShopContext)
 
-    console.log("products: ",products);
+    // console.log("products: ",products);
 
     const [newArrival, setNewArrival] = useState([])
 
