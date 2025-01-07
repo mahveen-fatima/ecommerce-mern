@@ -1,0 +1,47 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+a:hover hr {
+     display: block;
+}
+
+.roboto-regular {
+     font-family: "Roboto", serif;
+     font-weight: 400;
+     font-style: normal;
+}
+   
+.roboto-black {
+     font-family: "Roboto", serif;
+     font-weight: 900;
+     font-style: normal;
+}
+
+.poppins-regular {
+     font-family: "Poppins", serif;
+     font-weight: 400;
+     font-style: normal;
+}
+   
+.poppins-black {
+font-family: "Poppins", serif;
+font-weight: 900;
+font-style: normal;
+}
+   
+
+
+   
+   
+
+@font-face {
+    font-family: "Helvetica Now Text Medium";
+    src: url("/path-to-your-font/HelveticaNowText-Medium.woff2") format("woff2"),
+         url("/path-to-your-font/HelveticaNowText-Medium.woff") format("woff");
+    font-weight: 500;
+    font-style: normal;
+};
+
+
+   
